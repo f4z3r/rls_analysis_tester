@@ -26,7 +26,7 @@ pub fn check_hello() {
     assert_eq!(defs.len(), 1);
 
     // Print the definitions properties
-    pretty_print_defs(defs);
+    pretty_print_defs(&defs);
 
     // Get all `id`s which have "print_hello" in their name.
     let ids = host.search_for_id("print_hello").unwrap();
@@ -39,7 +39,7 @@ pub fn check_hello() {
     assert_eq!(res.len(), 2);
 
     // Print the spans from the references.
-    pretty_print_spans(res);
+    pretty_print_spans(&res);
 }
 
 
@@ -66,7 +66,7 @@ pub fn check_ogl() {
     assert_eq!(defs.len(), 1);
 
     // Print the definitions properties
-    pretty_print_defs(defs);
+    pretty_print_defs(&defs);
 
     // Get all `id`s which have "process_events" in their name.
     let ids = host.search_for_id("process_events").unwrap();
@@ -77,5 +77,5 @@ pub fn check_ogl() {
     // There are two reference, the definition and the call
     assert_eq!(res.len(), 2);
     // Print the spans from the references.
-    pretty_print_spans(res);
+    pretty_print_spans(&res);
 }

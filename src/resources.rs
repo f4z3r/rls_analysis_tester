@@ -13,7 +13,7 @@ pub fn print_title(title: &str) {
 ///
 /// # Arguments
 /// - `spans` is a `Vec<rls_analysis::Span>` containing the spans to be printed.
-pub fn pretty_print_spans(spans: Vec<Span>) {
+pub fn pretty_print_spans(spans: &Vec<Span>) {
     println!("\nReferences:");
     for span in spans {
         println!("SPAN");
@@ -35,7 +35,7 @@ pub fn pretty_print_spans(spans: Vec<Span>) {
 ///
 /// # Arguments
 /// - `defs` is a `Vec<rls_analysis::Def>` containing the definitions to be printed.
-pub fn pretty_print_defs(defs: Vec<Def>) {
+pub fn pretty_print_defs(defs: &Vec<Def>) {
     for def in defs {
         println!("Found definition with name: {}", def.name);
         println!("{:<20}{:?}", "Kind:", def.kind);
