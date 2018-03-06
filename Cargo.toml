@@ -1,0 +1,9 @@
+[package]
+name = "rls_analysis_tester"
+version = "0.1.0"
+authors = ["Jakob Beckmann <beckmann_jakob@hotmail.fr>"]
+
+[dependencies]
+json = "*"
+rls-analysis = "*"
+rls-span = "*"

@@ -1,0 +1,10 @@
+[package]
+name = "ogl"
+version = "0.1.0"
+authors = ["Jakob Beckmann <beckmann_jakob@hotmail.fr>"]
+
+[dependencies]
+cgmath = "0.14.1"
+gl = "0.6.2"
+glfw = "0.15.0"
+image = "0.14.0"
