@@ -1,4 +1,4 @@
-# rls-analysis tester
+# rls_analysis_tester
 Tests the use of rls-analysis to test for unsafe code.
 
 ## Usage
@@ -24,4 +24,4 @@ If adding a new test program, please use `print_title()` to print the analysis t
 ## Notes
 Running a query on a larger code base (such as `ogl`, containing the OpenGL backend as compiled libraries)can take some time.
 
-![Time taken for OGL analysis to complete: 55s](assets/time.ogl.png "OGL analysis timer")
+![Time taken for OGL analysis to complete: 55s](assets/time_ogl.png "OGL analysis timer")
