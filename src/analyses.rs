@@ -9,6 +9,9 @@ use resources::{TestAnalysisLoader, print_title, pretty_print_spans, pretty_prin
 /// # TLDR
 /// Prints definition and the spans of all references to "print_hello" function defined
 /// in the program.
+///
+/// # Precise Analysis Description
+/// ...TODO...
 pub fn check_hello() {
     print_title("ANALYSING `HELLO`");
     // Load analysis host
@@ -49,6 +52,9 @@ pub fn check_hello() {
 /// # TLDR
 /// Prints definition and the spans of all references to "process_events" function defined
 /// in the program.
+///
+/// # Precise Analysis Description
+/// ...TODO...
 pub fn check_ogl() {
     print_title("ANALYSING `OGL`");
     // Load analysis host
