@@ -16,7 +16,7 @@ First make sure that the save-analysis data has been generated. Otherwise this w
 ```
 cargo run <test> <test> ...
 ```
-in the root directory. <test> correspond to the test program names found in `test_data/`. Note that the only two supported so far are `hello` and `ogl`, both simply taking a function definition, listing its properties and printing all references to it.
+in the root directory. `<test>` correspond to the test program names found in `test_data/`. Note that the only two supported so far are `hello` and `ogl`, both simply taking a function definition, listing its properties and printing all references to it.
 
 #### Adding your own analyses
 If adding a new test program, please use `print_title()` to print the analysis title and the other `pretty_print_...()` functions to make output to command line readable (imported from `resources.rs`).
